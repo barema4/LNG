@@ -3,8 +3,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem 6rem;
-    background-color: white;
-    color: black;
+    background-color: #1f9f4636;
+    color: rgba(0, 0, 0, 0.294);
 }
 
 .gpt3__navbar-links{
@@ -32,6 +32,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    gap: 1rem;
 }
 
 .gpt3__navbar-links_container p,
@@ -51,7 +52,7 @@
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
     padding: 0.5rem 1rem;
-    background-color: #FF4820;
+    background-color: #1f7f49;
     border-radius: 0.5rem;
     font-size: 18px;
     font-family: var(--font-family);

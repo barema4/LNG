@@ -20,7 +20,8 @@
     font-weight: 800;
     font-size: 62px;
     line-height: 75px;
-    color: white;
+    /* color: white; */
+    color: rgba(0, 0, 0, 0.516);
     letter-spacing: -0.04em;
 }
 
@@ -30,7 +31,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
-    color: white;
+    color: rgba(0, 0, 0, 0.516);
     margin-top: 1.5rem;
 }
 
@@ -50,11 +51,11 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    background: #0A2540;
+    /* background: #0A2540; */
     border: 2px solid var(--color-footer);
     padding: 0 1rem;
     outline: none;
-    color: #fff;
+    color: #000;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -69,7 +70,7 @@
     line-height: 27px;
     cursor: pointer;
     color: #fff;
-    background: #FF4820;
+    background-color: #216610;
     outline: 0;
     border: 0;
     border-top-right-radius: 5px;

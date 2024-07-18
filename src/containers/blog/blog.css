@@ -11,9 +11,10 @@
 .gpt3__blog-heading h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 62px;
+    font-size: 24px;
     line-height: 75px;
     letter-spacing: -0.04em;
+    color: rgba(0, 0, 0, 0.516);
 }
 
 .gpt3__blog-container_article-content p:last-child {

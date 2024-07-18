@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="gpt3__navbar-wrapper">
 
           <div className="gpt3__navbar-sign">
-            <p>Sign in</p>
+           <button type='button'>Sign in</button>
             <button type='button'>Sign up</button>
           </div>
           {/* Responsive part for mobiles devices */}
@@ -43,7 +43,7 @@ const Navbar = () => {
                   <Menu />
                 </div>
                 <div className="gpt3__navbar-menu_container-links-sign">
-                  <p>Sign in</p>
+                  <button type='button'>Sign in</button>
                   <button type='button'>Sign up</button>
                 </div>
               </div>
