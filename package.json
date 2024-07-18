@@ -1,11 +1,11 @@
 {
-  "name": "openai-gpt3",
-  "author": "Nikhil Mohite",
+  "name": "lng",
+  "author": "Sam",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nkilm/openai-gpt3"
+    "url": "https://github.com/barema4/LNG"
   },
-  "description": "Clone of GPT3 Website using Reactjs",
+  "description": "LNG Website using Reactjs",
   "version": "0.1.0",
   "keywords": [
     "reactjs",

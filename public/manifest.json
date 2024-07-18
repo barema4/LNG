@@ -1,9 +1,9 @@
 {
-  "short_name": "gpt3",
-  "name": "openai-gpt3 website",
+  "short_name": "LNG",
+  "name": "Land Native Grabbing",
   "icons": [
     {
-      "src": "brain.png",
+      "src": "web.png",
       "type": "image/png",
       "sizes": "128x128"
     }
