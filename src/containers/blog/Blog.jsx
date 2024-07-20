@@ -7,14 +7,11 @@ const Blog = () => {
   return (
     <div className="gpt3__blog section__padding">
       <div className="gpt3__blog-heading">
-        <h1 className="gradient__text">
+        <div className="blog-header">
           A lot is happening, We are blogging about it.
-        </h1>
+        </div>
       </div>
       <div className="gpt3__blog-container">
-        <div className="gpt3__blog-container_groupA">
-          <Article  date="Jul 05,2022" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-        </div>
         <div className="gpt3__blog-container_groupB">
           <Article date="Jul 05,2022" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
           <Article date="Jul 05,2022" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />

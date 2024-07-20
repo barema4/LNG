@@ -1,7 +1,7 @@
 import React from 'react'
 import "./App.css"
 import {Blog,Features,Footer,Header,Possibility,WhatGPT3} from "./containers";
-import {CTA,Brand,Navbar} from "./components";
+import {Navbar} from "./components";
 
 function App() {
   return (
@@ -10,11 +10,9 @@ function App() {
         <Navbar/>
         <Header/>
       </div>
-      <Brand/>
       <WhatGPT3/>
       <Features/>
       <Possibility/>
-      <CTA/>
       <Blog/>
       <Footer/>
     </div>

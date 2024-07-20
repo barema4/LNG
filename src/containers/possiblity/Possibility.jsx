@@ -1,21 +1,32 @@
-import React from 'react'
-import "./possibility.css"
+import React from "react";
+import { Carousel, Col, Row } from "antd";
+import Slack from "../../assets/slack.png";
+import Shop from "../../assets/shopify.png";
 
-import  possibilityImage  from '../../assets/possibility.png'
+const contentStyle = {
+  height: "160px",
+  color: "#fff",
+  lineHeight: "160px",
+  textAlign: "center",
+  background: "#364d79",
+  width: "500px",
+  margin: 0,
+};
 
-const Possibility = () => {
-  return (
-    <div className="gpt3__possibility section__padding" id='possibility'>
-        <div className="gpt3__possibility-image">
-          <img src={possibilityImage} alt="possibility" />
-        </div>
-        <div className="gpt3__possibility-container">
-          <p><a href="/">Request Early Access to Get Started</a></p>
-          <h1>The possibilities are beyond your imagination.</h1>
-          <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
-        </div>
-    </div>
-  )
-}
-
-export default Possibility
+const Possibility = () => (
+  <Row style={{ margin: "1rem 6rem", display: 'flex', flexDirection: 'column' }}>
+    <Col
+      style={{
+        fontSize: "16px",
+        fontWeight: "bold",
+        color: "#063151",
+        margin: "1rem 0",
+      }}
+    >
+      Hall Of Fame
+    </Col>
+    <Col style={{height: '200px', backgroundColor: 'green'}}>
+    </Col>
+  </Row>
+);
+export default Possibility;

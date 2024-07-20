@@ -1,18 +1,35 @@
 import React from 'react';
-import Feature from '../../components/feature/Feature';
 import './whatGPT3.css';
 
-const WhatGPT3 = () => (
-  <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
-    <div className="gpt3__whatgpt3-feature">
-      <Feature title="LNG" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book" />
+const WhatGPT3 = () => {
+  
+  return (
+    <div className="about" id="wgpt3">
+      <div className="about-container">
+        <div className='about-nlg-text'>About NLG</div>
+      </div>
+      <div className='dicover'>Dicover Who We Are</div>
+      <div className="what-we-do">
+        <div className='mission'>
+          <p className='mission-header'>Mission</p>
+          <p className='mission-decription'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'</p>
+        </div>
+        <div className='mission'>
+          <p className='mission-header'>Goals</p>
+          <p className='mission-decription'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'</p>
+        </div>
+        <div className='mission'>
+          <p className='mission-header'>Objectives</p>
+          <p className='mission-decription'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'</p>
+        </div>
+        
+      </div>
     </div>
-    <div className="gpt3__whatgpt3-container">
-      <Feature title="Mission" text="The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'" />
-      <Feature title="Goals" text="The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'" />
-      <Feature title="Objectives" text="The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here"/>
-    </div>
-  </div>
-);
+  );
+};
 
 export default WhatGPT3;
+
+
+
+

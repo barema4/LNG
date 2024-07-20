@@ -1,14 +1,14 @@
-import React from 'react'
-import "./footer.css"
-import logoUrl from "../../assets/web.jpeg"
+import React from 'react';
+import "./footer.css";
+import logoUrl from "../../assets/web.jpeg";
 
 const Footer = () => {
   return (
     <div className="gpt3__footer section__padding">
       <div className="gpt3__footer-heading">
-        <h1 className="gradient__text">
-          Do you want to step in to the future and solve land conflicts?
-        </h1>
+        <div className="footer-header">
+          Do you want to step into the future and solve land conflicts?
+        </div>
       </div>
       <div className="gpt3__footer-button">
         <p>Join Us</p>
@@ -33,16 +33,16 @@ const Footer = () => {
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Get in touch</h4>
-          <p>kampala TNV</p>
+          <p>Kampala, TNV</p>
           <p>085-132567</p>
           <p>info@landGrubby.net</p>
         </div>
       </div>
-      <div className="gpt3__footer-copyrights">
+      <div className="gpt3__footer-copyright">
         ©2024 LNG. All rights reserved.
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
